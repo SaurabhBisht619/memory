@@ -1,0 +1,39 @@
+Create an event listener whenever the Content of DOM is get loaded and everything happen inside this function.  Done
+
+We will create an array of object and that object contains name of image and path of image. Done
+
+We will sort the array so that everytime we get a unique location of image  Done
+
+We will select the targeted tags using getElementByID.
+
+2 array is needed 
+1 for storing the cardChooseName
+and 1 for storing the cardChooseId
+
+
+We will create a function for creating a board
+and apply a loop in the array for all the images
+    Create an image
+    Set the imagePath = setattribute
+    Set its unique id
+    and then as user click into the image and we will call the flipTheCard function
+
+
+Create a function for flip the cardChooseId
+    Get the Id
+    Add card name and card id into the array
+    When exactly 2 time clicks by the user and call a function for checking the card
+
+Create a function for checkingTheCard
+    apply some conditions like
+
+    if the two cards id is same then what to do
+            ==> set the blank image again by using its id
+
+    else if two cards name is same then what to do
+            ==> Set a white image in both of the boxes
+            ==> By using there ids apply removeEventListener 
+
+    else what to do
+            ==>Set blank image in both of the boxes
+

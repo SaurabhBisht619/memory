@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px 0px;
+}
+
+.parent{
+    display: grid;
+    place-items: center;
+    margin-top: 18vh;
+}
+
+.child{
+    display: flex;
+    flex-wrap: wrap;
+    height: 45vh;
+    width: 45vw;
+}
